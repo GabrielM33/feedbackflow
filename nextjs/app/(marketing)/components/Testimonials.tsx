@@ -1,5 +1,5 @@
 import { QuoteIcon } from "@radix-ui/react-icons";
-
+import Image from "next/image";
 // Testimonial card component
 const TestimonialCard = ({
   quote,
@@ -19,7 +19,7 @@ const TestimonialCard = ({
       <div className="flex items-center">
         <div className="w-10 h-10 bg-gray-200 dark:bg-gray-700 rounded-full flex items-center justify-center text-lg font-semibold text-gray-600 dark:text-gray-400">
           {imageSrc ? (
-            <img
+            <Image
               src={imageSrc}
               alt={author}
               className="w-10 h-10 rounded-full"

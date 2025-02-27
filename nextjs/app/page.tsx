@@ -4,7 +4,7 @@ import { Testimonials } from "./(marketing)/components/Testimonials";
 import { CTASection } from "./(marketing)/components/CTASection";
 
 // Import the marketing navigation and footer from the marketing layout
-import { MarketingNav, Footer } from "./(marketing)/layout-components";
+import { MarketingNav, Footer } from "./marketing-components";
 
 export default function LandingPage() {
   return (
